@@ -1,0 +1,144 @@
+/* Kolory w projekcie 
+ * color1 = rgba(58, 101, 191, 1)
+ * color2 = rgba(39, 68, 127, 1)
+ * color3 = rgba(77, 135, 255, 1)
+ * color4 = rgba(19. 34, 64, 1)
+ * color5 = rgba(70, 122, 229, 1)
+ */
+
+
+/* bg foto */
+
+body { 
+  background: url("../img/bg2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6em;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* sections */
+.row{
+    border: solid #000;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.8);
+/*  margin: 0 0;*/
+
+}
+
+.section-color{
+    background-color: #1a4474 !important;/*rgba(93, 137, 224, 0.7)*/
+    color: white;
+
+}
+
+
+.row-border{
+	border: solid 1px #000;
+	border-radius: 5px;
+	/*box-shadow: 1px 1px 10px #000;*/
+  font-family: 'Heebo', sans-serif;
+}
+
+.row-border .lead{
+	margin-bottom: 0;
+	padding: 10px 0;
+}
+
+.section-name{
+	margin-top: 5px;
+}
+
+.section-name h3{
+	margin-top: 10px;
+
+}
+
+.section-personal-date{
+	margin-top: 10px;
+
+}
+/* list w section*/
+.li-padding{
+    padding: 10px 0 10px 0;
+}
+
+.symbol{
+    float: left;
+    margin: 0px 5px 0px 5px;
+}
+
+.symbol-next{ 
+    display: flow-root;
+    margin: 0px 5px 0px 5px;
+}
+/*upiększenia*/
+.btn-download{
+	margin-top: 6px;
+}
+
+.img-thumbnail{
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid black;
+}
+
+.black-belt{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+ .boxOne{
+ 	width: 11.5%;
+/*	width: 20%;
+	vertical-align: top;
+	text-align: left;*/
+	float: left;
+}
+
+.empty{
+	padding: 0 0 18px 0;
+}
+
+
+.box{
+	display: inline-block;
+	padding: 11px;
+	margin: 0 0 0 0;
+	/*font-size: 1rem;*/
+}
+
+.inter{
+	text-align: center;
+}
+
+.ent{
+	padding-top: 22px;
+}
+.img1 {
+  width: 220px;
+  margin: -40px;
+  margin-left: 1px;
+  position: absolute;
+  border-radius: 5px;
+  /*border: 5px solid white;*/
+}
+
+.hobby{
+	padding-top: 20px;
+}
